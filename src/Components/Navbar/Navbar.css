@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    background-color: aliceblue;
+}
+.nav-logo img{
+    width: 90px;
+    
+}
+nav  ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+nav ul li{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    
+}
+.link ul li a{
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+.link ul li :hover{
+    background-color: orange;
+    padding: 5px;
+    color: #fff;
+}
+@media(min-width:768px){
+
+    nav ul{
+        flex-direction: row;
+       
+    }
+    nav ul li a{
+        
+        padding: 1px 8px;
+    }
+}

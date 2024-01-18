@@ -1,0 +1,94 @@
+.service-container{
+    display: flex;
+    flex-direction: column;
+    background-color:#edecec ;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #cccaca;
+    
+}
+.main-service{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.main-service h2{
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    color: #343434;
+    padding-bottom: 5px;
+}
+.main-service span{
+    color: #f3a719;
+}
+.main-service p{
+    line-height: 2rem; 
+    color: #4a4949;
+    font-size: 1.2rem;
+}
+.web,.desktop,.tablet{
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #171313;
+    background-color: #ece6e6;
+    box-shadow: 1px 1px 2px 2px #888888;
+    width: 90%;
+    margin: 1rem;
+
+}
+.fa-code{
+    font-size: 2rem;
+    color: palevioletred;
+    padding:5px
+}
+.web h2,.desktop h2,.tablet h2{
+    padding: 3px;
+}
+.web p,.desktop p, .tablet p{
+    line-height: 1.5rem;
+    padding-left: 5px;
+
+}
+.fa-desktop{
+    font-size: 2rem;
+    color: #f3a719;
+    padding:5px
+}
+.fa-tablet-screen-button{
+    font-size: 2rem;
+    color: brown;
+    padding:5px;
+    padding-left: 8px;
+}
+
+@media(min-width:700px){
+    .service-container{
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+       
+        
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+    }
+    .web,.desktop,.tablet{
+        width: 80%;
+        margin-top: 25px;
+        padding: 15px;
+    
+    }
+    .main-service{
+       width: 100%;
+       padding: 15%;
+       
+    }
+    
+   
+}
